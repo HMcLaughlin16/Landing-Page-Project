@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+
+.intro {
+    background-color: #1F2937;
+    color: white;
+    padding: 5px;
+}
+
+.top_headers {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.left_header {
+    font-size: 24px;
+}
+
+.right_header {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bottom_header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 700px;
+    padding: 30px;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;   
+}
+
+button {
+    max-width: 75px;
+    background-color: #3882f6;
+    border-radius: 7%;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.bottom_header img {
+    max-width: 300px;
+    border-radius: 3%;
+}
