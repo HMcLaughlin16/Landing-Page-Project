@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
 }
 
 .intro {
@@ -33,6 +34,8 @@ a {
 .bottom_header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex: auto;
     gap: 20px;
     max-width: 700px;
     padding: 30px;
@@ -56,4 +59,55 @@ button {
 .bottom_header img {
     max-width: 300px;
     border-radius: 3%;
+}
+
+.information_section {
+    background-color: white;
+    padding: 10px;
+}
+
+.information_header {
+    display: flex;
+    justify-content: center;
+}
+
+.facts {
+    display: flex;
+    flex-direction: row;
+}
+
+.information_header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.facts {
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 3%;
+}
+
+.facts .text {
+    color: black;
+    font-size: 10px;
+    position: relative;
+    text-align: center;
 }
